@@ -9,9 +9,11 @@ import sys
 #Allows your computer to interact with the python on your runtime enviorment
 #Command Line Arguments (sys.argv) It captures the arguments you pass to a script when you run it from the terminal
 #Interacting with the Interpreter 
-#(sys.exit)  -
-#(sys.path)  -
-#(sys.version)-
+#(sys.exit)  - Safely stops the program
+#(sys.path)  - A list of strings that specifies the search path for modules. If you've ever had an "ImportError," this is where Python was looking
+#(sys.version)- Tells you exactly which version of Python is currently running
+#Standard Streams
+#
 
 
 import pathlib
