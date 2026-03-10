@@ -13,11 +13,25 @@ import sys
 #(sys.path)  - A list of strings that specifies the search path for modules. If you've ever had an "ImportError," this is where Python was looking
 #(sys.version)- Tells you exactly which version of Python is currently running
 #Standard Streams
-#
+#sys.stdin - Handles input messages
+#sys.stdout - Handles output messages
+#sys.stderr -Handles error messages
+#Memory Managment
+#sys.getsizeof() - Returns the size of an object in bytes. great for debugging memory-heavy applications
+
+import shutil
+#Used for high-level file operations like moving whole folders or archiving data
+#shutil.copy() - copies a file
+#shutil.copytree() - copies entire directory trees while leaving permissions still intact
+#shutil.move() - moves a file or a whole folder from one place to another 
+#shutil.rmtree() - Deletes and entire directory and everything inside of it
+#shutil.make_archive() - Archives files or folders need to specify what type(ex.- .zip, .tar, .gz)
+#shutil.unpack_archive() - Undoes the archive
+#shutil.disk_usage - Lets you know how much space is left on your disk
 
 
 import pathlib
-
+##literally just a better version of import os
 
 import json
 
